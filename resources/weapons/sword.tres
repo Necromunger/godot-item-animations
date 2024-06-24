@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="Weapon" load_steps=2 format=3 uid="uid://8ie8rftt3dw6"]
-
-[ext_resource type="Script" path="res://scripts/weapon.gd" id="1_ejj8s"]
-
-[resource]
-script = ExtResource("1_ejj8s")
-name = "Sword"

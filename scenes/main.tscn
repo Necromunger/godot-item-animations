@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://by4pymmrcs8ip" path="res://prefabs/player.tscn" id="1_cyu80"]
 [ext_resource type="Resource" uid="uid://gkubxo8e4r8x" path="res://resources/weapons/axe.tres" id="2_pogmp"]
 [ext_resource type="Resource" uid="uid://cdr4ulady71mq" path="res://resources/weapons/spear.tres" id="3_ptw6h"]
-[ext_resource type="Resource" uid="uid://8ie8rftt3dw6" path="res://resources/weapons/sword.tres" id="4_y3yc4"]
+[ext_resource type="Resource" uid="uid://8ie8rftt3dw6" path="res://resources/weapons/fists.tres" id="4_y3yc4"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_djlie"]
 size = Vector2(10, 10)
@@ -44,3 +44,6 @@ weapon = ExtResource("3_ptw6h")
 [node name="Player3" parent="." instance=ExtResource("1_cyu80")]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2.5, 0, 0)
 weapon = ExtResource("4_y3yc4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.984469, 0.175556, 0, -0.175556, 0.984469, 0, 2.51441, 5.23994)

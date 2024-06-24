@@ -1,7 +1,13 @@
-[gd_resource type="Resource" script_class="Weapon" load_steps=2 format=3 uid="uid://cdr4ulady71mq"]
+[gd_resource type="Resource" script_class="Weapon" load_steps=5 format=3 uid="uid://cdr4ulady71mq"]
 
-[ext_resource type="Script" path="res://scripts/weapon.gd" id="1_ve03u"]
+[ext_resource type="Animation" uid="uid://biqxlh2slyfvk" path="res://animations/2HPolearmStabRelease.res" id="1_47u4r"]
+[ext_resource type="Animation" uid="uid://cfmfqmxt1xrjd" path="res://animations/2HPolearmBlock.res" id="2_7arfr"]
+[ext_resource type="Animation" uid="uid://cn875s28rd63n" path="res://animations/2HPolearmIdle.res" id="3_kwudb"]
+[ext_resource type="Script" path="res://scripts/weapon.gd" id="4_2gk1v"]
 
 [resource]
-script = ExtResource("1_ve03u")
+script = ExtResource("4_2gk1v")
 name = "Spear"
+idle_anim = ExtResource("3_kwudb")
+attack_anim = ExtResource("1_47u4r")
+block_anim = ExtResource("2_7arfr")

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=5 format=3 uid="uid://8ie8rftt3dw6"]
+
+[ext_resource type="Animation" uid="uid://d0lmpd2jl6npn" path="res://animations/FistCross.res" id="1_ohfye"]
+[ext_resource type="Animation" uid="uid://cry4awo0jxp5y" path="res://animations/FistBlock.res" id="2_8pk6s"]
+[ext_resource type="Animation" uid="uid://sr6mtdqu3j7s" path="res://animations/FistIdle.res" id="3_5f54x"]
+[ext_resource type="Script" path="res://scripts/weapon.gd" id="4_703pk"]
+
+[resource]
+script = ExtResource("4_703pk")
+name = "Fists"
+idle_anim = ExtResource("3_5f54x")
+attack_anim = ExtResource("1_ohfye")
+block_anim = ExtResource("2_8pk6s")
