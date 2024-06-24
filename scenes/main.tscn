@@ -26,6 +26,8 @@ size = Vector3(10, 2.5, 1)
 mesh = SubResource("PlaneMesh_djlie")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.79811, 0.518205, -0.307382, 0, 0.510168, 0.860075, 0.602512, -0.686435, 0.40717, 0, 0, 0)
+shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_wch3u")
@@ -46,4 +48,4 @@ transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2.5, 
 weapon = ExtResource("4_y3yc4")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.984469, 0.175556, 0, -0.175556, 0.984469, 0, 2.51441, 5.23994)
+transform = Transform3D(1, 0, 0, 0, 0.975146, 0.221566, 0, -0.221566, 0.975146, 0, 2.51441, 5.23994)
